@@ -9,6 +9,9 @@
 [臺灣大學碩博士論文 XeLaTeX 模板](https://github.com/tzhuan/ntu-thesis)。 <br>
 最後則由 [walker088](https://github.com/Walker088) 在撰寫論文期間根據[政大圖書館](http://www.lib.nccu.edu.tw/thesis/download.html) 所提供的論文格式規範加以修改。
 
+2022/0411 由[capy-pl](https://github/.com/capy-pl)更新
+1. 將citation格式改成IEEE transaction（科技論文）。
+2. 目前政大上傳論文已經不需要上浮水印，將浮水印去除。
 
 下載
 ----------
