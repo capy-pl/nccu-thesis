@@ -1,7 +1,6 @@
 政治大學碩博士論文 XeLaTeX 模版
 ==========
 
-
 前言
 ----------
 這份模板是從[交通大學碩博士論文 XeLaTeX 模版](https://github.com/Po-haoHuang/nctu-thesis) Fork 而來
@@ -9,33 +8,38 @@
 [臺灣大學碩博士論文 XeLaTeX 模板](https://github.com/tzhuan/ntu-thesis)。 <br>
 最後則由 [walker088](https://github.com/Walker088) 在撰寫論文期間根據[政大圖書館](http://www.lib.nccu.edu.tw/thesis/download.html) 所提供的論文格式規範加以修改。
 
-2022/04/11 由[capy-pl](https://github/.com/capy-pl)更新
-1. 將citation格式改成IEEE transaction（科技論文）。
-2. 目前政大上傳論文已經不需要上浮水印（改由學校上浮水印），將原本的浮水印去除。
-
 下載
 ----------
+
 您可以直接 clone 這個 git repository，或者下載成 zip.
 
 快速開始
 ----------
+
 * 這份文件主要提供在 [overleaf](https://www.overleaf.com/) 上編輯撰寫，將這個 repo 下載成 zip 後就可以直接輸入 overleaf 順利編譯。
 * 主要章節會在 ./chapter/ 資料夾裡面，可以自行新增。
 * 章節順序請在 ./thesis.tex 內編排修改。
 * ***口試委員審定書*** 會由系辦助教在口試當天協助印出，口試完成後將有口委簽名的版本掃描成 PDF 檔，取代 ./pdfs/cert.pdf ，就可以修改成自己的審定書了。
 
 ```
-Note: 在 overleaf 上傳 zip file 後，
-要點選右上角的齒輪將 latex engin 改成 Xelatex 
-才可以順利通過編譯。 
+  Note: 在 overleaf 上傳 zip file 後，
+  要點選右上角的齒輪將 latex engin 改成 Xelatex 
+  才可以順利通過編譯。 
 ```
+
 詳細說明
 ----------
-目前請先參考交大 [shaform](https://github.com/shaform) 所撰寫的 [wiki](https://github.com/shaform/ntu-thesis/wiki) 說明。
 
+目前請先參考交大 [shaform](https://github.com/shaform) 所撰寫的 [wiki](https://github.com/shaform/ntu-thesis/wiki) 說明。
 
 Changelog
 ----------
+
+  * 2022/06/24 [capy-pl](https://github/.com/capy-pl)
+    * 在abstract新增keywords區，讓keywords至底。
+  * 2022/04/11 [capy-pl](https://github/.com/capy-pl)
+    * 將citation格式改成IEEE transaction（科技論文）。
+    * 目前政大上傳論文已經不需要上浮水印（改由學校上浮水印），將原本的浮水印去除。
   * v1.0
     * The first fork release
     * Add Chinese support
